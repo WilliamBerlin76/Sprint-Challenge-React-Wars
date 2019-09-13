@@ -4,7 +4,17 @@ import styled from "styled-components";
 const CharacterCard = styled.div`
     background: #3CB371;
     width:23%;
+    height: 130px;
+    min-width: 130px;
     margin-top: 20px;
+    opacity: 0.8;
+    transition: 0.3s ease-in;
+    border-radius: 15px;
+    &:hover {
+        opacity: 1;
+        width: 25%;
+        height: 150px;
+    }
 `;
 const CharName = styled.h2`
     background: #2E8B57;
