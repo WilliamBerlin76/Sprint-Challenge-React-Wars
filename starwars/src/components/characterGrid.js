@@ -17,15 +17,22 @@ export default function CardGrid() {
       console.log('no data for you', error)
     })
   }, [])
-
-
+const Container = styled.div`
+    width: 75%;
+    margin: 0 auto;
+`;
+// const EntryPoint = styled.div`
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap
+// `;
   return (
-      <div className='container'>
+      <Container>
           <div className='entry'>
               {character.map(item =>{
                   return <PersonCard key={item} name={item.name} height={item.height} mass={item.mass}/>
               })}
           </div>
-      </div>
+      </Container>
   )
 }
