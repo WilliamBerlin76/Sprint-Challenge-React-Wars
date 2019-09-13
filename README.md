@@ -26,14 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS allows for javaScript, HTML like formating, and CSS like styling all in one file, which can make it easier to keep track of everything.
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking about the application you are building as a whole while developing the website
 
 - [ ] Describe state.
 
+state is the form an item is taking at any given moment on a website
+
 - [ ] Describe props.
+
+props are all of the characteristics of an item getting passed through a component
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
+Side effects are things that occur outside of the direct react code, like using axios.get to call a website. a react component can sync effects by altering the effect in a way to include a piece of your react code, so that when the state of the react code changes, so does the effect.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
